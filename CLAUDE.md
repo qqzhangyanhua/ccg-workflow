@@ -2,13 +2,17 @@
 
 > [根目录](../CLAUDE.md) > **skills-v2**
 
-**Last Updated**: 2026-03-20 (v1.7.89)
+**Last Updated**: 2026-03-23 (v1.7.90)
 
 ---
 
 ## 变更记录 (Changelog)
 
 > 完整变更历史请查看 [CHANGELOG.md](./CHANGELOG.md)
+
+### 2026-03-23 (v1.7.90)
+- ✨ **`--progress` 进度输出**：codeagent-wrapper 新增 `--progress` 参数，后台任务 stderr 输出精简进度行，告别黑箱等待（PR #112）
+- 🐛 **全模板 `--progress` 覆盖**：补漏 `debug.md`、`spec-review.md`、`codex-exec.md` review 调用
 
 ### 2026-03-20 (v1.7.89)
 - 🐛 **权限规则匹配修复**：`Bash(*codeagent-wrapper*)` 加前导通配符，修复 Windows/macOS 完整路径不匹配
